@@ -13,7 +13,7 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 2.5% 2.5% 0;
-	background: white;
+	background: #663399; /*'Beccapurple'*/
 	line-height: 1.8;
 }
 h1 {
@@ -103,7 +103,10 @@ blockquote {
 }
 .flowRight {
 	margin-left: 10px;
+    float: right
+    
 }
 .flowLeft {
 	margin-right: 10px;
+    float: left
 }
