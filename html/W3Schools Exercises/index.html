@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head> 
+    <style>
+        Body {background-color: lightcoral}
+        h2 {color: white;
+        font-family: verdana;
+        font-size: 150%}
+        p {color: black;
+        font-family: courier;
+        font-size: 100%}
+        li {color: slategrey;
+        font-family: verdana;
+        font-size: 90%}
+        table, th, td { border: 1px solid black;
+        border-collapse: collapse}
+        th,td {padding: 12px}
+        th{text-align: left}
+        table{border-spacing: 5px}
+        table#t01{width: 100%; 
+        background-color: darkgray}
+        
+    </style>
+</head>
+<body>
+<h1>This is the Page I am Practicing my coding on From w3schools.com</h1> 
+<h2>Section 1: Attributes</h2>
+    <p style="color: mediumvioletred"> HTML attributes usually come in name/value pairs like : name="value"</p>
+    <p> This is an example of a href attribute: <br>
+   <a href="https://www.w3schools.com/html/html_attributes.asp"> This is the link to the W3schools website about attributes.</a> 
+    </p>
+    <p>This is an example of a src attribute with width and height attributes: <br>
+    <img src="maxresdefault.jpg" alt="Richard Foglesong, Planning Theorist" width="500" height="275"></p>
+
+    
+<h2> Section 2: Headers </h2>
+    <p> There are six different, general types of headers.</p>
+    <H1> Header 1 is the largest</H1>
+    <h2> Header 2 is  a little smaller.</h2>
+    <h3> Header 3 is a little bit smaller. </h3>
+    <h4> Header 4 is a little smaller still.</h4>
+    <h5> Header 5 is a little smaller. </h5>
+    <h6> Header 6 is the smallest one of all. </h6>
+    <p> Headers are really important for the structure of the webpage and shows the levels of importance of each section within your web page. <br>
+    You can change colors and sizes of all the general fonts by using the style attribute and using CSS font size proeprty. <br>
+    You can also use the HTML head element which, while having nothing really to do with headers, is a container for metadata of the document. </p>
+    
+<h2 id="S3">Section 3: Paragraphs</h2>
+    <p> This is a paragraph. It is super easy to do, but just remember to always close your tags! You can aslo use breaks, as shown in the code for section 2.<br> Another cool element in HTML for paragraphs is the pre element which has a preformatted text with a fixed0width font and it preserves both spaes and line breaks. Here is an example with a poem from the w3schools website exercise: </p>
+<pre>
+    My bonnie lies over the ocean.
+    My bonnie lies over the sea.
+    My bonnie lies over the oceam.
+    Oh, bring back my Bonnie to me. </pre>
+    
+<h2 style="font-family: courier; color: purple; font-size: 180%; text-align: right"> Section 4: Styles </h2>
+    <p> The Style attribute you can change any colors and font styles throughout your web page. For instance, this section header is different than the others because I used style attributes.</p>
+<h2> Section 5: Formatting </h2>
+    <p> <b> Bold text is one form of formatting </b> and, while it looks the same <strong> this text is strong text formatting which means it is important not just bold </strong> <br> <i> This text is italicized </i> which is different than the <em> emphasis formatting which looks just like italics but it has more importance in the syntax. </em> </p>
+<p> Some other formatting includes <small> small formatting,</small> the <mark> marked or highligted formatting,</mark> the deleted <del> deleted</del> text, the inserted <ins> formatting </ins> which underlines it, and there are also <sub> subscript</sub> and <sup> superscript</sup> formatting for text!</p>
+<h2> Section 6: Quotations and Citations</h2>
+    <p> Using a quote from the w3schools.com, we will learn how to do the short quotations. <br> 
+   This is for a short quote-- WWF's goal is to: <q> Build a future where people live in harmony with nature.</q></p> 
+    <p>This is for a block quote -- WWF's website:</p> 
+    <blockquote cite="http://www.worldwildlife.org/who/index.html"> For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    </blockquote>
+<h2> Section 7: Comment Tags</h2>
+    <p> So if you want to write comments in your code you need to do something like this. <!-- this is a comment.--></p>
+    
+<h2 style="background-color: slateblue; color: rgb(240,240,240)"> Section 8: Colors!</h2>
+    <P style="border: 2px solid violet; background-color: lightgray"> In this section we learned to change colors of text, border, and background!!</P>
+<h2> Section 9: CSS</h2>
+    <p> CSS stands for Cascading Style Sheets which allows how elements are displed on screen, paper or other media. It also is more efficient, which si awesome! <br> There are three ways in which CSS can be added to HTML: </p>
+        <ul> 
+            <li>Inline- by using the style attribute in HTML elements</li> <li>Internal- by using a style element in the head section</li>
+            <li> Extermal- by using an external CSS file</li>
+        </ul>
+<h2> Section 10: Links</h2>
+    <p> Learning how to put hyperlinks into a web page:</p> <a href="https://www.w3schools.com/html/" target="_blank">Visit our HTML tutorial</a>
+    <p> Also learning how to put in local links </p> <a href="html_images.asp"> HTML Images</a>
+    <p> You can also creat bookmarks to other sections of a Web page.</p>
+    <a href="#S3"> Jump to Section 3</a>
+    <p> You can also make external paths and link to other web pages.</p>
+    <a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
+<h2> Section 11: Tables</h2>
+    <p> In this section we are learning how to define an HTML Table.</p>
+    <table id="t01"> 
+        <caption> People's Name and Age</caption>
+        <tr>
+            <th>First Name</th>  
+            <th>Last Name</th> 
+            <th>Age</th> 
+        </tr>
+        <tr>
+            <th>Jill</th> 
+            <th>Smith</th> 
+            <th>50</th> 
+        </tr>
+        <tr>
+            <th>Evan</th> 
+            <th>George</th> 
+            <th>30</th> 
+        </tr>
+    </table>
+</body>
+</html>
